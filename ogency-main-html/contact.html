@@ -104,11 +104,7 @@
             <div class="page-header__overlay"></div>
             <!-- /.page-header__bg -->
             <div class="container">
-                <ul class="page-header__breadcrumb list-unstyled">
-                    <li><a href="index.html">Home</a></li>
-                    <li><span>Contact</span></li>
-                </ul><!-- /.page-breadcrumb list-unstyled -->
-                <h2 class="page-header__title">Contact</h2><!-- /.page-title -->
+               
             </div><!-- /.container -->
         </section><!-- /.page-header -->
         <!--Contact Start-->
@@ -138,6 +134,16 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
+                                    <div class="contact-one__input-box">
+                                        <select class="selectpicker" aria-label="Default select example">
+                                            <option selected>Select service</option>
+                                            <option value="1">Select service 01</option>
+                                            <option value="2">Select service 02</option>
+                                            <option value="3">Select service 03</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
                                     <div class="contact-one__input-box">
                                         <textarea name="message" placeholder="Write Comment" required></textarea>
                                     </div>
@@ -374,7 +380,7 @@
 
 
 
-    {% comment %} <script>
+    <script>
         document.getElementById('contact-form').addEventListener('submit', async function (event) {
             event.preventDefault(); // Prevent default form submission
         
@@ -401,7 +407,7 @@
             }
         });
          
-    </script> {% endcomment %}
+    </script> 
 </body>
 
 </html>

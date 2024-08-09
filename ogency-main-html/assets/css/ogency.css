@@ -8291,6 +8291,8 @@ h6 {
 .page-header {
   background-color: var(--ogency-black);
   position: relative;
+  width: 100%;
+  
 }
 
 .page-header__bg {
@@ -8324,6 +8326,7 @@ h6 {
 .page-header .container {
   position: relative;
   z-index: 10;
+  height: 100vh;
   padding-top: 231px;
   padding-bottom: 211px;
 }
@@ -11619,39 +11622,3 @@ body.boxed-wrapper .main-slider__one-item__shape-1 {
 
 
 
-.main-slider__two__bg, .main-slider__two__overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.video-bg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
-
-.main-slider__two__item {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.main-slider__two__content {
-  position: relative;
-  z-index: 2;
-  color: white;
-  text-align: center;
-}
